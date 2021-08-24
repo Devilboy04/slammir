@@ -112,7 +112,7 @@ class GoogleDriveHelper:
                                      resumable=False)
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded using Deepak Clouds Mirror Bot',
+            'description': 'Uploaded using Waris Clouds Mirror Bot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -534,9 +534,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = 'Deepak Clouds Torrent Search',
-                                 author_name='Deepak Mirror Bot',
-                                 author_url='https://t.me/cloudsmirror',
+                                 title = 'Waris Clouds Torrent Search',
+                                 author_name='Waris Mirror Bot',
+                                 author_url='http://t.me/WarisZone',
                                  html_content=content)
         return
 
