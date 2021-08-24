@@ -619,9 +619,9 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = 'Deepak Clouds Torrent Search',
-                                                        author_name='Deepak Clouds Torrent',
-                                                        author_url='https://telegram.dog/cloudsmirror',
+                                                        title = 'Waris Clouds Torrent Search',
+                                                        author_name='Waris Clouds Torrent',
+                                                        author_url='http://t.me/WarisZone',
                                                         html_content=content
                                                         )['path'])
 
